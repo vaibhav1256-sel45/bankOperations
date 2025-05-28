@@ -73,7 +73,7 @@ function Home() {
         </div>
         <div className={homeCss["bank-balance"]}>
           <span>Total Balance</span>
-          <span className={homeCss["bank-balance-amount"]}>{count.toFixed()}</span>
+          <span className={homeCss["bank-balance-amount"]}>{count.toFixed(2)}</span>
         </div>
       </div>
       <SidebarDrawer/>
