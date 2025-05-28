@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "./SideDrawer.module.css";
 import { useDispatch, useSelector } from "react-redux";
 import { type AppDispatch, type RootState } from "../features/store";
-import { fetchUsers } from "../features/UsersApi";
+import { fetchUsers } from "../features/Api/UsersApi";
 import type { userData } from "../interfaces/userInterfaces";
 
 const SidebarDrawer: React.FC = () => {

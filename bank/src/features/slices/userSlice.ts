@@ -1,5 +1,5 @@
 import { createSlice} from '@reduxjs/toolkit';
-import { fetchUsers } from '../UsersApi';
+import { fetchUsers } from '../Api/UsersApi';
 import type { userState } from '../../interfaces/userInterfaces';
 const initialState: userState = {
   data:[] ,

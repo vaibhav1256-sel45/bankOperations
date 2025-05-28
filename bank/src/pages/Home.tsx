@@ -73,7 +73,7 @@ function Home() {
         </div>
         <div className={homeCss["bank-balance"]}>
           <span>Total Balance</span>
-          <span className={homeCss["bank-balance-amount"]}>{String(count).slice(0,String(count).indexOf(".")+3)}</span>
+          <span className={homeCss["bank-balance-amount"]}>{String(count).includes(".")?String(count).slice(0,String(count).indexOf(".")+3):count}</span>
         </div>
       </div>
       <SidebarDrawer/>
